@@ -1,5 +1,8 @@
 [workspace]
 members = [
-    "methods",
-    "host",
+  "cli",
+  "core",
+  "methods",
 ]
+
+default-members = ["cli"]
